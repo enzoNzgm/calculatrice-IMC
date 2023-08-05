@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule ton IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="card__imc">
+        <h1 class="title">CALCULE TON IMC !</h1>
+        <p class="imc__desc">L’IMC est une méthode fiable pour les femmes et hommes adultes de 18 à 65 ans, mais ne peut
+            pas être utilisée
+            telle quelle pour les femmes enceintes ou qui allaitent, les seniors, les athlètes d’endurance ou les
+            personnes très musclées.</p>
+        <div class="form">
+            <label for="poids">Entez votre poid (kg):
+                <input type="number" name="poids" id="poids"></label>
+            <label for="taille">Entrez votre taille (cm):
+                <input type="number" name="taille" id="taille"></label>
+        </div>
+        <button class="btn__calcul">Calculer</button>
+        <div class="resultat">
+            <p>Votre IMC est de : <span></span></p>
+        </div>
+    </div>
+</body>
+
+</html>
